@@ -33,5 +33,8 @@ public class FishWorld extends World
         Fish fish3 = new Fish();
         addObject(fish3,209,265);
 
+        Crab crab = new Crab();
+        addObject(crab,400,342);
+        crab.setLocation(400,342);
     }
 }
